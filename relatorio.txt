@@ -1,0 +1,29 @@
+
+
+-----ARQUIVO IMPRESSO COM INFORMAÇÕES-----
+
+
+Quantidade de litros vendidos: 2.0
+Montante total arrecadado com as vendas: 6.0
+Quantidade de carros atendidos: 1
+Quantidade de carros na fila: 1
+Quantidade de combustível restante: 301.0
+Capacidade máxima de carros que a fila suporta: 3
+
+===================================================
+
+LISTA CARROS ATENDIDOS
+
+Nome: 1
+Placa: 1
+Cor: 1
+Modelo: 1
+
+===================================================
+
+LISTA CARROS EM ESPERA
+
+Nome: 2
+Placa: 2
+Cor: 2
+Modelo: 2

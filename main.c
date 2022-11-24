@@ -302,19 +302,19 @@ int main() {
     case 5:
       aux = gasolina_bomba;
 
-      printf(YELLOW "quantidade de combustível na bomba do posto antes do "
-                    "abastecimento: %.1f\n" WHITE,
+      printf("quantidade de combustível na bomba do posto antes do "
+                    "abastecimento: %.1f\n",
              gasolina_bomba);
       printf(YELLOW
              "Informe o total de litros de combustível a ser "
-             "adicionado ao posto\n(usar PONTO FINAL no lugar de VÍRGULA): ");
+             "adicionado ao posto\n(usar PONTO FINAL no lugar de VÍRGULA): "WHITE);
       scanf("%f", &aux2);
 
       if (aux2 > 0) {
 
         system("clear");
         gasolina_bomba = gasolina_bomba + aux2;
-        printf(GREEN "Posto abastecido!" WHITE);
+        printf(GREEN "Posto abastecido!\n" WHITE);
         printf( "\nquantidade de combustivel na bomba do posto após o "
                      "abastecimento: %.1f\n",
                gasolina_bomba);
