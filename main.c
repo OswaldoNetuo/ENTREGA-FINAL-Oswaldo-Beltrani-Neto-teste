@@ -168,7 +168,7 @@ int main() {
           }
         }
       }
-
+    
       // Caso não haja combustível no posto
 
       if (gasolina_bomba == 0) {
@@ -178,6 +178,12 @@ int main() {
                      "DISPENSADOS." WHITE);
           fila = 0;
         }
+      }
+
+      if (gasolina_carro < 0){
+        
+      printf(RED"\nVALOR INVÁLIDO\n"WHITE);
+        
       }
 
       break;

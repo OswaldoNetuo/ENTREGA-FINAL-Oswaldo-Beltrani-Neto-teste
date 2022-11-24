@@ -168,7 +168,7 @@ int main() {
           }
         }
       }
-
+    
       // Caso não haja combustível no posto
 
       if (gasolina_bomba == 0) {
@@ -178,6 +178,12 @@ int main() {
                      "DISPENSADOS." WHITE);
           fila = 0;
         }
+      }
+
+      if (gasolina_carro < 0){
+        
+      printf(RED"\nVALOR INVÁLIDO\n"WHITE);
+        
       }
 
       break;
@@ -314,7 +320,7 @@ int main() {
 
         system("clear");
         gasolina_bomba = gasolina_bomba + aux2;
-        printf(GREEN "Posto abastecido!" WHITE);
+        printf(GREEN "Posto abastecido!\n" WHITE);
         printf( "\nquantidade de combustivel na bomba do posto após o "
                      "abastecimento: %.1f\n",
                gasolina_bomba);
