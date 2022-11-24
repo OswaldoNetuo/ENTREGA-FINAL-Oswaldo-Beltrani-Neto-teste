@@ -1,0 +1,24 @@
+
+
+-----ARQUIVO IMPRESSO COM INFORMAÇÕES-----
+
+
+Quantidade de litros vendidos: 0.0
+Montante total arrecadado com as vendas: 0.0
+Quantidade de carros atendidos: 0
+Quantidade de carros na fila: 1
+Quantidade de combustível restante: 200.0
+Capacidade máxima de carros que a fila suporta: 3
+
+===================================================
+
+LISTA CARROS ATENDIDOS
+
+===================================================
+
+LISTA CARROS EM ESPERA
+
+Nome: Claudia Elisa Gonçalves Beltrani
+Placa: 123
+Cor: Azul Bebê
+Modelo: HB20

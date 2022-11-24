@@ -55,6 +55,7 @@ int main() {
   printf("\nO número máximo de carros na fila é: %d\n", tamanho_fila);
   printf("\nQuantia de combustível na bomba: %.1f\n", gasolina_bomba);
   printf(GREEN "\nInicialização completa\n\n" WHITE);
+  
   // MENU
 
   while (menu != 6) {
@@ -303,7 +304,7 @@ int main() {
       system("clear");
       break;
 
-      // Abastecer o posto (letras passam, arrumar isso)
+      // Abastecer o posto 
 
     case 5:
       aux = gasolina_bomba;

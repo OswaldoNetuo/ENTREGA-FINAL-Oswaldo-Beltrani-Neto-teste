@@ -18,7 +18,7 @@
 
 
 struct Tcarro addCarro() {
-  struct Tcarro aux; // definindo uma variável
+  struct Tcarro aux; 
   getchar();
   printf(YELLOW"\nNome do cliente: \n"WHITE);
   fgets(aux.nome, 50, stdin);
@@ -49,8 +49,9 @@ void imprimir(struct Tcarro vetor[], int tamanho_fila, FILE *f) {
   }
 }
 
+// LIMPA BUFFER 
 
-void flush_in() { // LIMPA BUFFER 
+void flush_in() { 
   int ch;
   while ((ch = fgetc(stdin)) != EOF && ch != '\n') {
   }
